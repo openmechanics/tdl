@@ -3,3 +3,13 @@ s/c/fingerprints pass
 s/s/sensors.cc? "yeah, sensord is closed source"
 
 comment out update 
+
+
+fix manager.py
+
+running once
+/data/openpilot/launch_chffrplus.sh: line 18: echo: write error: Permission denied
+Traceback (most recent call last):
+  File "./manager.py", line 11, in <module>
+    from common.services import service_list
+ImportError: No module named services
