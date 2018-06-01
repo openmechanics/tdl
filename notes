@@ -1,3 +1,5 @@
-b/ calibrationd
-s/c/fingerprints
-s/s/sensors
+b/ calibrationd pass
+s/c/fingerprints pass
+s/s/sensors.cc? "yeah, sensord is closed source"
+
+comment out update 
